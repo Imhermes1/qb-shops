@@ -157,6 +157,9 @@ CreateThread(function()
 			elseif Config.Locations[store]["products"] == Config.Products["casino"] then
 				SetBlipSprite(StoreBlip, 617)
 				SetBlipScale(StoreBlip, 0.70)
+            elseif Config.Locations[store]["products"] == Config.Products["cardshop"] then
+				SetBlipSprite(StoreBlip, 52)
+				SetBlipScale(StoreBlip, 0.6)
 			end
 
 			SetBlipDisplay(StoreBlip, 4)

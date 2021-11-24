@@ -4,7 +4,7 @@ Config.Products = {
     ["normal"] = {
         [1] = {
             name = "tosti",
-            price = 2,
+            price = 10,
             amount = 50,
             info = {},
             type = "item",
@@ -12,7 +12,7 @@ Config.Products = {
         },
         [2] = {
             name = "water_bottle",
-            price = 2,
+            price = 10,
             amount = 50,
             info = {},
             type = "item",
@@ -20,7 +20,7 @@ Config.Products = {
         },
         [3] = {
             name = "kurkakola",
-            price = 2,
+            price = 10,
             amount = 50,
             info = {},
             type = "item",
@@ -28,7 +28,7 @@ Config.Products = {
         },
         [4] = {
             name = "twerks_candy",
-            price = 2,
+            price = 10,
             amount = 50,
             info = {},
             type = "item",
@@ -36,7 +36,7 @@ Config.Products = {
         },
         [5] = {
             name = "snikkel_candy",
-            price = 2,
+            price = 10,
             amount = 50,
             info = {},
             type = "item",
@@ -44,7 +44,7 @@ Config.Products = {
         },
         [6] = {
             name = "sandwich",
-            price = 2,
+            price = 10,
             amount = 50,
             info = {},
             type = "item",
@@ -52,7 +52,7 @@ Config.Products = {
         },
         [7] = {
             name = "beer",
-            price = 7,
+            price = 30,
             amount = 50,
             info = {},
             type = "item",
@@ -60,7 +60,7 @@ Config.Products = {
         },
         [8] = {
             name = "whiskey",
-            price = 10,
+            price = 40,
             amount = 50,
             info = {},
             type = "item",
@@ -68,7 +68,7 @@ Config.Products = {
         },
         [9] = {
             name = "vodka",
-            price = 12,
+            price = 40,
             amount = 50,
             info = {},
             type = "item",
@@ -84,7 +84,7 @@ Config.Products = {
         },
         [11] = {
             name = "lighter",
-            price = 2,
+            price = 10,
             amount = 50,
             info = {},
             type = "item",
@@ -92,7 +92,7 @@ Config.Products = {
         },
         [12] = {
             name = "rolling_paper",
-            price = 2,
+            price = 10,
             amount = 5000,
             info = {},
             type = "item",
@@ -143,7 +143,7 @@ Config.Products = {
         },
         [6] = {
             name = "phone",
-            price = 850,
+            price = 1250,
             amount = 50,
             info = {},
             type = "item",
@@ -151,7 +151,7 @@ Config.Products = {
         },
         [7] = {
             name = "radio",
-            price = 250,
+            price = 2000,
             amount = 50,
             info = {},
             type = "item",
@@ -159,7 +159,7 @@ Config.Products = {
         },
         [8] = {
             name = "binoculars",
-            price = 50,
+            price = 500,
             amount = 50,
             info = {},
             type = "item",
@@ -167,7 +167,7 @@ Config.Products = {
         },
         [9] = {
             name = "firework1",
-            price = 50,
+            price = 100,
             amount = 50,
             info = {},
             type = "item",
@@ -175,7 +175,7 @@ Config.Products = {
         },
         [10] = {
             name = "firework2",
-            price = 50,
+            price = 100,
             amount = 50,
             info = {},
             type = "item",
@@ -183,7 +183,7 @@ Config.Products = {
         },
         [11] = {
             name = "firework3",
-            price = 50,
+            price = 100,
             amount = 50,
             info = {},
             type = "item",
@@ -191,42 +191,34 @@ Config.Products = {
         },
         [12] = {
             name = "firework4",
-            price = 50,
+            price = 100,
             amount = 50,
             info = {},
             type = "item",
             slot = 12,
         },
         [13] = {
-            name = "fitbit",
-            price = 400,
+            name = "cleaningkit",
+            price = 150,
             amount = 150,
             info = {},
             type = "item",
             slot = 13,
         },
         [14] = {
-            name = "cleaningkit",
-            price = 150,
-            amount = 150,
-            info = {},
-            type = "item",
-            slot = 14,
-        },
-        [15] = {
             name = "advancedrepairkit",
             price = 500,
             amount = 50,
             info = {},
             type = "item",
-            slot = 15,
+            slot = 14,
             requiredJob = { "mechanic" }
         },        
     },
     ["coffeeshop"] = {
         [1] = {
             name = "joint",
-            price = 10,
+            price = 50,
             amount = 1000,
             info = {},
             type = "item",
@@ -234,7 +226,7 @@ Config.Products = {
         },
         [2] = {
             name = "weapon_poolcue",
-            price = 100,
+            price = 200,
             amount = 1000,
             info = {},
             type = "item",
@@ -242,7 +234,7 @@ Config.Products = {
         },
         [3] = {
             name = "weed_nutrition",
-            price = 20,
+            price = 50,
             amount = 1000,
             info = {},
             type = "item",
@@ -250,7 +242,7 @@ Config.Products = {
         },
         [4] = {
             name = "empty_weed_bag",
-            price = 2,
+            price = 25,
             amount = 1000,
             info = {},
             type = "item",
@@ -258,7 +250,7 @@ Config.Products = {
         },
         [5] = {
             name = "rolling_paper",
-            price = 2,
+            price = 10,
             amount = 1000,
             info = {},
             type = "item",
@@ -282,6 +274,14 @@ Config.Products = {
             type = "item",
             slot = 2,
         },
+        [3] = {
+            name = "parachute",
+            price = 2500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 3,
+        },
     },
     ["leisureshop"] = {
         [1] = {
@@ -294,7 +294,7 @@ Config.Products = {
         },
         [2] = {
             name = "binoculars",
-            price = 50,
+            price = 500,
             amount = 50,
             info = {},
             type = "item",
@@ -308,19 +308,85 @@ Config.Products = {
             type = "item",
             slot = 3,
         },
-        -- [4] = {
-        --     name = "smoketrailred",
-        --     price = 250,
-        --     amount = 50,
-        --     info = {},
-        --     type = "item",
-        --     slot = 4,
-        -- },
+        [4] = {
+            name = "smoketrailred",
+            price = 250,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 4,
+       },
+       [5] = {
+           name = "fuelsiphon",
+           price = 500,
+           amount = 50,
+           info = {},
+           type = "item",
+           slot = 5,
+        },
+        [6] = {
+           name = "duffel-bag",
+           price = 1500,
+           amount = 2,
+           info = {},
+           type = "item",
+           slot = 6,
+        },
+    },   
+    ["secretshop"] = {        ----secret automotive shop arcadia
+      [1] = {
+          name = "beer",
+          price = 25,
+          amount = 50,
+          info = {},
+          type = "item",
+          slot = 1,
+      },
+      [2] = {
+          name = "vodka",
+          price = 25,
+          amount = 50,
+          info = {},
+          type = "item",
+          slot = 2,
+      },    
+      [3] = {
+          name = "tunerlaptop",
+          price = 100,
+          amount = 5,
+          info = {},
+          type = "item",
+          slot = 3,
+      },
+      [4] = {
+          name = "nitrous",
+          price = 100,
+          amount = 5,
+          info = {},
+          type = "item",
+          slot = 4,
+      },
+      [5] = {
+          name = "electronickit",
+          price = 125,
+          amount = 3,
+          info = {},
+          type = "item",
+          slot = 5,
+      },
+      [6] = {
+        name = "harness",
+        price = 100,
+        amount = 5,
+        info = {},
+        type = "item",
+        slot = 6,
+    },
     },
     ["weapons"] = {
         [1] = {
             name = "weapon_knife",
-            price = 250,
+            price = 500,
             amount = 250,
             info = {},
             type = "item",
@@ -328,7 +394,7 @@ Config.Products = {
         },
         [2] = {
             name = "weapon_bat",
-            price = 250,
+            price = 600,
             amount = 250,
             info = {},
             type = "item",
@@ -336,7 +402,7 @@ Config.Products = {
         },
         [3] = {
             name = "weapon_hatchet",
-            price = 250,
+            price = 500,
             amount = 250,
             info = {},
             type = "item",
@@ -345,7 +411,7 @@ Config.Products = {
         },
         [4] = {
             name = "weapon_pistol",
-            price = 2500,
+            price = 3500,
             amount = 5,
             info = {},
             type = "item",
@@ -354,7 +420,7 @@ Config.Products = {
         },
         [5] = {
             name = "weapon_snspistol",
-            price = 1500,
+            price = 2500,
             amount = 5,
             info = {},
             type = "item",
@@ -363,7 +429,7 @@ Config.Products = {
         },
         [6] = {
             name = "weapon_vintagepistol",
-            price = 4000,
+            price = 4500,
             amount = 5,
             info = {},
             type = "item",
@@ -372,11 +438,29 @@ Config.Products = {
         },
         [7] = {
             name = "pistol_ammo",
-            price = 250,
+            price = 300,
             amount = 250,
             info = {},
             type = "item",
             slot = 7,
+            requiresLicense = true        
+        },        
+        [8] = {
+            name = "weapon_ceramicpistol",
+            price = 5500,
+            amount = 5,
+            info = {},
+            type = "item",
+            slot = 8,
+            requiresLicense = true
+        },
+        [9] = {
+            name = "armor",
+            price = 3000,
+            amount = 5,
+            info = {},
+            type = "item",
+            slot = 9,
             requiresLicense = true
         },
     },
@@ -391,7 +475,7 @@ Config.Products = {
         },
         [2] = {
             name = "lighter",
-            price = 2,
+            price = 10,
             amount = 50,
             info = {},
             type = "item",
@@ -401,12 +485,38 @@ Config.Products = {
     ["casino"] = {
         [1] = {
             name = 'casinochips',
-            price = 100,
+            price = 1,
             amount = 999999,
             info = {},
             type = 'item',
             slot = 1,
-        }
+        },
+    },
+    ["cardshop"] = {
+        [1] = {
+            name = 'boosterpack',
+            price = 150,
+            amount = 100,
+            info = {},
+            type = 'item',
+            slot = 1,
+        },
+        [2] = {
+            name = 'boosterbox',
+            price = 300,
+            amount = 100,
+            info = {},
+            type = 'item',
+            slot = 2,
+        },
+        [3] = {
+            name = 'pokebox',
+            price = 200,
+            amount = 100,
+            info = {},
+            type = 'item',
+            slot = 3,
+        },
     },
 }
 
@@ -773,9 +883,27 @@ Config.Locations = {
         ["label"] = "Leisure Shop",
         ["type"] = "leisure",
         ["coords"] = {
-            [1] = vector3(-1505.91, 1511.78, 115.29)
+            [1] = vector3(-1505.89, 1512.6, 115.29)
         },
         ["products"] = Config.Products["leisureshop"],
         ["showblip"] = true,
+    },    
+    ["secretshop"] = {   --- secretshop in arcadia
+    ["label"] = "YOU FOUND IT",
+    ["type"] = "automotive",
+    ["coords"] = {
+        [1] = vector3(-146.1, -604.39, 167.0)
     },
+    ["products"] = Config.Products["secretshop"],
+    ["showblip"] = false,
+}, 
+    ["cardshop"] = {   --- card shop
+    ["label"] = "TCG Shop",
+    ["type"] = "normal",
+    ["coords"] = {
+        [1] = vector3(-802.48, -596.25, 30.28)
+    },
+    ["products"] = Config.Products["cardshop"],
+    ["showblip"] = true,
+}, 
 }
